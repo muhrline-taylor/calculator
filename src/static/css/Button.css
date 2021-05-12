@@ -1,0 +1,22 @@
+.button {
+    width: 10vw;
+    height: 13vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 18px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.button > p {
+    font-weight: 500;
+    font-size: 2vw;
+    color: rgb(94, 93, 93);
+}
+
+.button:hover {
+    background-color: rgb(226, 226, 226) !important;
+    transition: 0.1s;
+    cursor: pointer;
+}
+

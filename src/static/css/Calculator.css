@@ -1,0 +1,49 @@
+.calculator {
+    height: 99vh;
+    min-width: 650px;
+    max-width: 50vw;
+    border-radius: 18px;
+    background: linear-gradient(rgba(12, 120, 170, 0.185), rgba(12, 120, 170, 0.445));
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.315);
+}
+
+.calculatorScreen {
+    height: 20vh;
+    display: flex;
+}
+
+.calculatorScreen--input {
+    flex: 1;
+    margin: 2% 3%;
+    border-radius: 18px;
+    background-color: rgba(255, 255, 255, 0.521);
+
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3) inset;
+}
+
+.calculatorScreen--input > form {
+    display: flex;
+    height: 100%;
+
+}
+
+.calculatorScreen--input > form > input {
+    flex: 1;
+    text-align: right;
+    font-size: 2.5vw;
+    background: transparent;
+    border: none;
+    margin: 0 2% 0 0;
+}
+
+.calculatorScreen--input > form > input:focus {
+    outline: none
+}
+
+.calculatorButtons {
+    height: 78.6vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 0 3%;
+}
